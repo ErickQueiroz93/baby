@@ -1,0 +1,193 @@
+h/*
+Theme Name: Intermedium Atualização cadastrais
+Author: MK(rj)
+*/
+body{
+  overflow: hidden;
+}
+
+/*tela1*/
+#tela1{
+  background: #fada16;
+}
+.logo{
+    margin-top: 10%;
+    text-align: center;
+}
+.logo img{
+  width: 30%;
+}
+
+/*tela2*/
+#logo-home{
+  text-align: center;
+  margin-top: 10%;
+}
+.tela-grande{
+  display: block;
+  margin-top: 2%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+#tela2{
+  background: #fada16;
+}
+.home {
+    display: none;
+}
+
+/*tela3*/
+#tela3{
+  background: #fada16;
+}
+.home2{
+    display: none;
+}
+
+/*tela4*/
+#tela4{
+  background: #fada16;
+}
+.logo-fim{
+  text-align: center;
+  margin-top: 15%;
+}
+.mensagem-sucesso{
+  text-align: center;
+}
+.mensagem-sucesso h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.mensagem-sucesso p{
+  color: #fff;
+}
+
+/*rodape*/
+footer{
+  display: none;
+}
+
+
+/*input*/
+input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 4%;
+    font-size: 15px;
+}
+input:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+input[type="submit"]{
+  border: solid 1px blue;
+  padding-top: 6px;
+  background: blue;
+  color: #fff;
+  height: 40px;
+}
+
+
+/*mobile*/
+@media (max-width: 800px){
+  /*tela1*/
+  .logo{
+      margin-top: 55%;
+      text-align: center;
+  }
+  .logo img{
+    width: 65%;
+  }
+
+  /*tela2*/
+  #tela2{
+    background-size: 100%;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+  }
+  #tela2 #logo-home{
+    display: none;
+  }
+  .home {
+    display: block;
+    margin-top: 10%;
+  }
+  #tela2 .info{
+    margin-top: 8%;
+  }
+
+  /*tela3*/
+  #tela3{
+    background-size: 100%;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+  }
+  #tela3 #logo-home{
+    display: none;
+  }
+  .home2{
+    display: block;
+    margin-top: 3%;
+  }
+  #tela3 input[type="text"], input[type="password"]{
+    height: 35px;
+  }
+  .logo-form img{
+    display: block;
+  }
+
+  /*tela4*/
+  .logo-fim{
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  /*icones*/
+  .icones{
+    width: 25%;
+    margin-bottom: 1%;
+  }
+  .img-icones{
+    width: 50%;
+    text-align: center;
+    background: #FBE76E;
+    border-radius: 10px;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    margin-left: 25%;
+
+  }
+  .img-icones img{
+    width: 65%;
+  }
+  .txt-icones{
+    color: #173E78;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /*rodape*/
+  footer{
+    display: block;
+    background: #f8D117;
+    height: 40px;
+    padding-top: 2%;
+    position: absolute;
+    bottom: 0;
+  }
+  footer img{
+    width: 70%;
+  }
+  .esquerda{
+    width: 60%;
+  }
+  .direita{
+    width: 40%;
+  }
+}
